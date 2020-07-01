@@ -35,16 +35,7 @@ section {
   color: white;
   font-weight: 700px;
 }
-.half-width2 {
-  width: 40%;
-  float: left;
-  margin-left: 5%;
-  padding: 2%;
-  padding-right: 5px;
-}
-.half-width2 img {
-  width: 100%;
-}
+
 h2 {
   font-size: 40px;
 }
@@ -52,21 +43,22 @@ h2 {
   background-image: url("img/dream-bg.png");
   background-repeat: no-repeat;
   background-position: right;
-}
-.single-exprience {
-  box-shadow: 10px 10px 400px gray;
-  border-radius: 5px;
-  height: 80%;
-  background-color: white;
+  background-size: 80px;
 }
 .exprience-section {
+  width: 100%;
   overflow: hidden;
-}
-.exprience-section {
   background-image: url("img/exp-bg.png");
   background-repeat: no-repeat;
   background-position: left;
 }
+.single-exprience {
+  box-shadow: 10px 10px 40px gray;
+  border-radius: 5px;
+  height: 50%;
+  background-color: white;
+}
+
 #full-stack {
   border-left: 7px solid;
   border-image: linear-gradient(180deg, lightSalmon, tomato);
@@ -77,8 +69,7 @@ h2 {
   border-image: linear-gradient(180deg, blue, cyan);
   border-image-slice: 1;
 }
-footer p{
+footer p {
   text-align: center;
   font-size: 12px;
 }
-
