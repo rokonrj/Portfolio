@@ -59,10 +59,9 @@ h2 {
   height: 80%;
   background-color: white;
 }
+
 .exprience-section {
   overflow: hidden;
-}
-.exprience-section {
   background-image: url("img/exp-bg.png");
   background-repeat: no-repeat;
   background-position: left;
@@ -77,8 +76,7 @@ h2 {
   border-image: linear-gradient(180deg, blue, cyan);
   border-image-slice: 1;
 }
-footer p{
+footer p {
   text-align: center;
   font-size: 12px;
 }
-
